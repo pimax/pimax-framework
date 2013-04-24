@@ -164,7 +164,7 @@ class IbFinder
                 }
             }
             /// Создание объекта с этими данными
-            $oResult = new BatalineObject($aFields);
+            $oResult = new BatalineObject($aFields, $this->mFrom, $aFields['Id']);
             $oResult->importProperties($aProps);
             break;
         }
@@ -271,7 +271,7 @@ class IbFinder
                 }
             }
             /// Создание объекта с этими данными
-            $oObject = new BatalineObject($aFields);
+            $oObject = new BatalineObject($aFields, $this->mFrom, $aFields['Id']);
             $oObject->importProperties($aProps);
             $oResult->add($oObject);
         }
