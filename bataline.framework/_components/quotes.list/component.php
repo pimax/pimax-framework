@@ -1,7 +1,7 @@
 <?php if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
 
 
-if(!CModule::IncludeModule("iblock") || !CModule::IncludeModule("bataline_framework"))
+if(!CModule::IncludeModule("iblock") || !CModule::IncludeModule("bataline.framework"))
 	return;
   
 $arParams["IBLOCK_TYPE"] = trim($arParams["IBLOCK_TYPE"]);
