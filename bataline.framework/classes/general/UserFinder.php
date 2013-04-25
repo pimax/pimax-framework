@@ -84,7 +84,7 @@ class UserFinder
     {
         $aFilter = array();
 
-        // ”слови€ выборки
+        // Условие выборки
         if ($this->mCriteria) {
             $aCr = array();
             if (is_object($this->mCriteria)) {

@@ -113,7 +113,7 @@ class IbSectionFinder
 
 
         $oResult = false;
-        $res = CIBlockSection::GetList(array('SORT' => 'ASC'), $aFilter);
+        $res = CIBlockSection::GetList($aOrder, $aFilter);
         while($ob = $res->GetNextElement()){
             /// Подготовка массива к импорту
             $aFields = array();
