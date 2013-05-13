@@ -5,7 +5,7 @@
  *
  * @package bataline_framework
  * @subpackage core
- * @version 1.0
+ * @version 1.2.1
  */
 class IbFinder
 {
@@ -290,18 +290,18 @@ class IbFinder
         $this->mCriteria = false;
         $this->nLimit = false;
         $this->nOffset = false;
-        $this->sPaginationTitle = 'Элементы';
+        $this->sPaginationTitle = GetMessage("BATALINE_FRAMEWORK_PAGINATOR_TITLE");
 
         return true;
     }
     
     protected function normalizeFieldName($sField)
     {
-        return Bataline::getInstance()->normalizeFieldName($sField);
+        return Bataline::normalizeFieldName($sField);
     }
 
     protected function reverseNormalizeFieldName($sField)
     {
-        return Bataline::getInstance()->reverseNormalizeFieldName($sField);
+        return Bataline::reverseNormalizeFieldName($sField);
     }
 }

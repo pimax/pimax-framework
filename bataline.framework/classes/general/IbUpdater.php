@@ -112,11 +112,11 @@ class IbUpdater
     
     protected function normalizeFieldName($sField)
     {
-        return Bataline::getInstance()->normalizeFieldName($sField);
+        return Bataline::normalizeFieldName($sField);
     }
 
     protected function reverseNormalizeFieldName($sField)
     {
-        return Bataline::getInstance()->reverseNormalizeFieldName($sField);
+        return Bataline::reverseNormalizeFieldName($sField);
     }
 }
