@@ -8,7 +8,7 @@ if(class_exists("bataline_framework")) return;
 
 class bataline_framework extends CModule
 {
-    var $MODULE_ID = "bataline_framework";
+    var $MODULE_ID = "bataline.framework";
     var $MODULE_VERSION;
     var $MODULE_VERSION_DATE;
     var $MODULE_NAME;

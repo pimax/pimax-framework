@@ -5,7 +5,7 @@ IncludeModuleLangFile(__FILE__);
 global $MESS, $DOCUMENT_ROOT;
 
 CModule::AddAutoloadClasses(
-    'bataline_framework',
+    'bataline.framework',
     array(
         'Bataline' => 'classes/general/Bataline.php',
         'BatalineCollection' => 'classes/general/BatalineCollection.php',
