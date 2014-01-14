@@ -1,7 +1,0 @@
-<?php
-
-$MESS ['BATALINE_FRAMEWORK_INSTALL_NAME'] = "BatalineFramework";
-$MESS ['BATALINE_FRAMEWORK_INSTALL_DESCRIPTION'] = "Bataline Framework";
-
-$MESS ['BATALINE_FRAMEWORK_INSTALL_TITLE'] = "Установка модуля";
-$MESS ['BATALINE_FRAMEWORK_UNINSTALL_TITLE'] = "Удаление модуля";

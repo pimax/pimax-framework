@@ -1,0 +1,6 @@
+<?php
+
+$MESS['PIMAX_FRAMEWORK_MODULE_NAME'] = "PimaxFramework";
+$MESS['PIMAX_FRAMEWORK_MODULE_TITLE'] = "PimaxFramework";
+
+$MESS['PIMAX_FRAMEWORK_PAGINATOR_TITLE'] = 'Элементы';
